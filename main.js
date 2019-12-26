@@ -5,7 +5,14 @@ require([
   "esri/symbols/SimpleMarkerSymbol",
   "esri/tasks/support/Query",
   "esri/widgets/Legend"
-], function(Map, MapView, FeatureLayer, SimpleMarkerSymbol, Query, Legend) {
+], function
+   (Map, 
+    MapView,
+    FeatureLayer,
+    SimpleMarkerSymbol,
+    Query,
+    Legend)
+{
   var continent = prompt(
     "Please choose a continent and type the name to display the cities within it:",
     "Africa, Asia, Australia, Europe, Oceania, South America, or North America"
